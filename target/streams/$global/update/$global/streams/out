@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/toddfaucheux/Valassis/scala/Composite-Variables/}composite-variables...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/toddfaucheux/scala/Composite_Variables/}composite_variables...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a33e67e[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4352bdc9[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.11.7[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
@@ -85,9 +85,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalanlp#breeze_2.11;0.11.2->net.sf.opencsv#opencsv;2.3 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving net.sf.opencsv#opencsv;2.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.sf.opencsv#opencsv;2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.sf.opencsv#opencsv;2.3[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: net.sf.opencsv#opencsv;2.3[0m
-[0m[[0mdebug[0m] [0m	found net.sf.opencsv#opencsv;2.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/net.sf.opencsv/opencsv/2.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for net.sf.opencsv#opencsv;2.3[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/toddfaucheux/.sbt/preloaded/net.sf.opencsv/opencsv/2.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for net.sf.opencsv#opencsv;2.3[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/toddfaucheux/.sbt/preloaded/net/sf/opencsv/opencsv/2.3/opencsv-2.3.pom[0m
+[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for net.sf.opencsv#opencsv;2.3[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for net.sf.opencsv#opencsv;2.3[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.pom (2.3)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] net.sf.opencsv#opencsv;2.3!opencsv.pom(pom.original) (130ms)[0m
+[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m	found net.sf.opencsv#opencsv;2.3 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalanlp#breeze_2.11;0.11.2->net.sf.opencsv#opencsv;2.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalanlp#breeze_2.11;0.11.2->net.sf.opencsv#opencsv;2.3 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalanlp#breeze_2.11;0.11.2->net.sf.opencsv#opencsv;2.3 [compile->compile][0m
@@ -125,11 +141,15 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-math3;3.2!commons-math3.pom(pom.original) (146ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-math3;3.2!commons-math3.pom(pom.original) (131ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;28 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;28 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-parent;28[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.commons#commons-parent;28[0m
+[0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/org.apache.commons/commons-math3/3.2/jars/commons-math3.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/toddfaucheux/.sbt/preloaded/org.apache.commons/commons-math3/3.2/jars/commons-math3.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/toddfaucheux/.sbt/preloaded/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar[0m
 [0m[[0mdebug[0m] [0m	found org.apache.commons#commons-math3;3.2 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalanlp#breeze_2.11;0.11.2->org.apache.commons#commons-math3;3.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalanlp#breeze_2.11;0.11.2->org.apache.commons#commons-math3;3.2 [compile->runtime(*)][0m
@@ -182,9 +202,29 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalanlp#breeze_2.11;0.11.2->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.5 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.5[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#slf4j-api;1.7.5[0m
-[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/org.slf4j/slf4j-api/1.7.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.slf4j#slf4j-api;1.7.5[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/toddfaucheux/.sbt/preloaded/org.slf4j/slf4j-api/1.7.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.slf4j#slf4j-api;1.7.5[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/toddfaucheux/.sbt/preloaded/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom[0m
+[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.slf4j#slf4j-api;1.7.5[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.slf4j#slf4j-api;1.7.5[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom (1.7.5)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.5!slf4j-api.pom(pom.original) (110ms)[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-parent;1.7.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.5 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-parent;1.7.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#slf4j-parent;1.7.5[0m
+[0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/org.slf4j/slf4j-api/1.7.5/jars/slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/toddfaucheux/.sbt/preloaded/org.slf4j/slf4j-api/1.7.5/jars/slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/toddfaucheux/.sbt/preloaded/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.5 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalanlp#breeze_2.11;0.11.2->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalanlp#breeze_2.11;0.11.2->org.slf4j#slf4j-api;1.7.5 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalanlp#breeze_2.11;0.11.2->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
@@ -240,7 +280,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/all/1.1.2/all-1.1.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/all/1.1.2/all-1.1.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/fommil/netlib/all/1.1.2/all-1.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#all;1.1.2!all.pom(pom.original) (105ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#all;1.1.2!all.pom(pom.original) (130ms)[0m
 [0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#parent;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#parent;1.1 {}[0m
 [0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/com.github.fommil.netlib/parent/1.1/ivys/ivy.xml[0m
@@ -256,7 +296,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/parent/1.1/parent-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/parent/1.1/parent-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/fommil/netlib/parent/1.1/parent-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#parent;1.1!parent.pom(pom.original) (114ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#parent;1.1!parent.pom(pom.original) (112ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
@@ -293,7 +333,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1!netlib-native_ref-osx-x86_64.pom(pom.original) (104ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1!netlib-native_ref-osx-x86_64.pom(pom.original) (107ms)[0m
 [0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#native_ref;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref;1.1[0m
@@ -320,7 +360,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#native_ref-java;1.1!native_ref-java.pom(pom.original) (101ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#native_ref-java;1.1!native_ref-java.pom(pom.original) (113ms)[0m
 [0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#native_ref;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref;1.1[0m
@@ -343,7 +383,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil#jniloader;1.1!jniloader.pom(pom.original) (117ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil#jniloader;1.1!jniloader.pom(pom.original) (108ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
@@ -376,7 +416,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1!netlib-native_ref-linux-x86_64.pom(pom.original) (106ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1!netlib-native_ref-linux-x86_64.pom(pom.original) (126ms)[0m
 [0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#native_ref-xbuilds;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref-xbuilds;1.1 {}[0m
 [0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/com.github.fommil.netlib/native_ref-xbuilds/1.1/ivys/ivy.xml[0m
@@ -392,7 +432,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#native_ref-xbuilds;1.1!native_ref-xbuilds.pom(pom.original) (103ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#native_ref-xbuilds;1.1!native_ref-xbuilds.pom(pom.original) (109ms)[0m
 [0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#native_ref;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref;1.1[0m
@@ -428,7 +468,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1!netlib-native_ref-linux-i686.pom(pom.original) (111ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1!netlib-native_ref-linux-i686.pom(pom.original) (110ms)[0m
 [0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#native_ref-xbuilds;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref-xbuilds;1.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref-xbuilds;1.1[0m
@@ -459,7 +499,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1!netlib-native_ref-win-x86_64.pom(pom.original) (105ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1!netlib-native_ref-win-x86_64.pom(pom.original) (116ms)[0m
 [0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#native_ref;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref;1.1[0m
@@ -490,7 +530,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-win-i686;1.1!netlib-native_ref-win-i686.pom(pom.original) (103ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-win-i686;1.1!netlib-native_ref-win-i686.pom(pom.original) (131ms)[0m
 [0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#native_ref;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref;1.1[0m
@@ -521,7 +561,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1!netlib-native_ref-linux-armhf.pom(pom.original) (106ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1!netlib-native_ref-linux-armhf.pom(pom.original) (126ms)[0m
 [0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#native_ref-xbuilds;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref-xbuilds;1.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref-xbuilds;1.1[0m
@@ -552,7 +592,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1!netlib-native_system-osx-x86_64.pom(pom.original) (104ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1!netlib-native_system-osx-x86_64.pom(pom.original) (112ms)[0m
 [0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#native_system;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_system;1.1[0m
@@ -579,7 +619,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#native_system-java;1.1!native_system-java.pom(pom.original) (108ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#native_system-java;1.1!native_system-java.pom(pom.original) (119ms)[0m
 [0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#native_system;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_system;1.1[0m
@@ -612,7 +652,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1!netlib-native_system-linux-x86_64.pom(pom.original) (104ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1!netlib-native_system-linux-x86_64.pom(pom.original) (122ms)[0m
 [0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#native_system-xbuilds;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system-xbuilds;1.1 {}[0m
 [0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/com.github.fommil.netlib/native_system-xbuilds/1.1/ivys/ivy.xml[0m
@@ -628,7 +668,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#native_system-xbuilds;1.1!native_system-xbuilds.pom(pom.original) (106ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#native_system-xbuilds;1.1!native_system-xbuilds.pom(pom.original) (142ms)[0m
 [0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#native_system;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_system;1.1[0m
@@ -664,7 +704,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-i686;1.1!netlib-native_system-linux-i686.pom(pom.original) (107ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-i686;1.1!netlib-native_system-linux-i686.pom(pom.original) (142ms)[0m
 [0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#native_system-xbuilds;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system-xbuilds;1.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_system-xbuilds;1.1[0m
@@ -695,7 +735,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1!netlib-native_system-linux-armhf.pom(pom.original) (102ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1!netlib-native_system-linux-armhf.pom(pom.original) (119ms)[0m
 [0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#native_system-xbuilds;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system-xbuilds;1.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_system-xbuilds;1.1[0m
@@ -726,7 +766,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1!netlib-native_system-win-x86_64.pom(pom.original) (109ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1!netlib-native_system-win-x86_64.pom(pom.original) (137ms)[0m
 [0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#native_system;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_system;1.1[0m
@@ -757,7 +797,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-win-i686;1.1!netlib-native_system-win-i686.pom(pom.original) (107ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-win-i686;1.1!netlib-native_system-win-i686.pom(pom.original) (140ms)[0m
 [0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#native_system;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_system;1.1[0m
@@ -903,7 +943,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/jfree/jcommon/1.0.16/jcommon-1.0.16.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/jfree/jcommon/1.0.16/jcommon-1.0.16.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/jfree/jcommon/1.0.16/jcommon-1.0.16.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] jfree#jcommon;1.0.16!jcommon.pom(pom.original) (104ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] jfree#jcommon;1.0.16!jcommon.pom(pom.original) (108ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
@@ -1062,7 +1102,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.19/ejml-0.19.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.19/ejml-0.19.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.19/ejml-0.19.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.googlecode.efficient-java-matrix-library#ejml;0.19!ejml.pom(pom.original) (107ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.googlecode.efficient-java-matrix-library#ejml;0.19!ejml.pom(pom.original) (111ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
@@ -1074,9 +1114,46 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-saddle#saddle-core_2.11;1.3.4->org.apache.commons#commons-math;2.2 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.commons#commons-math;2.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-math;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-math;2.2[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.commons#commons-math;2.2[0m
-[0m[[0mdebug[0m] [0m	found org.apache.commons#commons-math;2.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/org.apache.commons/commons-math/2.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.commons#commons-math;2.2[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/toddfaucheux/.sbt/preloaded/org.apache.commons/commons-math/2.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.apache.commons#commons-math;2.2[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/toddfaucheux/.sbt/preloaded/org/apache/commons/commons-math/2.2/commons-math-2.2.pom[0m
+[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.apache.commons#commons-math;2.2[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/commons/commons-math/2.2/commons-math-2.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.apache.commons#commons-math;2.2[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/commons/commons-math/2.2/commons-math-2.2.pom (2.2)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/commons/commons-math/2.2/commons-math-2.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-math/2.2/commons-math-2.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-math/2.2/commons-math-2.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/commons/commons-math/2.2/commons-math-2.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-math;2.2!commons-math.pom(pom.original) (138ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;18 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;18 {}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/org.apache.commons/commons-parent/18/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.commons#commons-parent;18[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/toddfaucheux/.sbt/preloaded/org.apache.commons/commons-parent/18/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.apache.commons#commons-parent;18[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/toddfaucheux/.sbt/preloaded/org/apache/commons/commons-parent/18/commons-parent-18.pom[0m
+[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.apache.commons#commons-parent;18[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/commons/commons-parent/18/commons-parent-18.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.apache.commons#commons-parent;18[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/commons/commons-parent/18/commons-parent-18.pom (18)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/18/commons-parent-18.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/18/commons-parent-18.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/18/commons-parent-18.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/commons/commons-parent/18/commons-parent-18.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-parent;18!commons-parent.pom(pom.original) (198ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache#apache;7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;7 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache#apache;7[0m
+[0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/org.apache.commons/commons-parent/18/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/toddfaucheux/.sbt/preloaded/org.apache.commons/commons-parent/18/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/toddfaucheux/.sbt/preloaded/org/apache/commons/commons-parent/18/commons-parent-18.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/commons/commons-parent/18/commons-parent-18.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/apache/commons/commons-parent/18/commons-parent-18.jar[0m
+[0m[[0mdebug[0m] [0m	found org.apache.commons#commons-math;2.2 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-saddle#saddle-core_2.11;1.3.4->org.apache.commons#commons-math;2.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-saddle#saddle-core_2.11;1.3.4->org.apache.commons#commons-math;2.2 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-saddle#saddle-core_2.11;1.3.4->org.apache.commons#commons-math;2.2 [compile->compile][0m
@@ -1123,7 +1200,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava/14.0-rc3/guava-14.0-rc3.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava/14.0-rc3/guava-14.0-rc3.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/google/guava/guava/14.0-rc3/guava-14.0-rc3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava;14.0-rc3!guava.pom(pom.original) (118ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava;14.0-rc3!guava.pom(pom.original) (113ms)[0m
 [0m[[0minfo[0m] [0mResolving com.google.guava#guava-parent;14.0-rc3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.guava#guava-parent;14.0-rc3 {}[0m
 [0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/com.google.guava/guava-parent/14.0-rc3/ivys/ivy.xml[0m
@@ -1139,7 +1216,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0-rc3/guava-parent-14.0-rc3.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0-rc3/guava-parent-14.0-rc3.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0-rc3/guava-parent-14.0-rc3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava-parent;14.0-rc3!guava-parent.pom(pom.original) (105ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava-parent;14.0-rc3!guava-parent.pom(pom.original) (167ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
@@ -1149,6 +1226,10 @@
 [0m[[0mdebug[0m] [0m		tried file:////Users/toddfaucheux/.sbt/preloaded/com/google/guava/guava-parent/14.0-rc3/guava-parent-14.0-rc3.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0-rc3/guava-parent-14.0-rc3.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0-rc3/guava-parent-14.0-rc3.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/com.google.guava/guava/14.0-rc3/bundles/guava.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/toddfaucheux/.sbt/preloaded/com.google.guava/guava/14.0-rc3/bundles/guava.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/toddfaucheux/.sbt/preloaded/com/google/guava/guava/14.0-rc3/guava-14.0-rc3.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/guava/guava/14.0-rc3/guava-14.0-rc3.jar[0m
 [0m[[0mdebug[0m] [0m	found com.google.guava#guava;14.0-rc3 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies it.unimi.dsi#dsiutils;2.0.15->com.google.guava#guava;14.0-rc3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies it.unimi.dsi#dsiutils;2.0.15->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
@@ -1196,11 +1277,32 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.8/commons-configuration-1.8.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.8/commons-configuration-1.8.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.8/commons-configuration-1.8.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-configuration#commons-configuration;1.8!commons-configuration.pom(pom.original) (106ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-configuration#commons-configuration;1.8!commons-configuration.pom(pom.original) (112ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;23 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;23 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-parent;23[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.commons#commons-parent;23[0m
+[0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/org.apache.commons/commons-parent/23/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.commons#commons-parent;23[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/toddfaucheux/.sbt/preloaded/org.apache.commons/commons-parent/23/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.apache.commons#commons-parent;23[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/toddfaucheux/.sbt/preloaded/org/apache/commons/commons-parent/23/commons-parent-23.pom[0m
+[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.apache.commons#commons-parent;23[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/commons/commons-parent/23/commons-parent-23.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.apache.commons#commons-parent;23[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/commons/commons-parent/23/commons-parent-23.pom (23)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/23/commons-parent-23.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/23/commons-parent-23.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/23/commons-parent-23.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/commons/commons-parent/23/commons-parent-23.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-parent;23!commons-parent.pom(pom.original) (172ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache#apache;9 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;9 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;9[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache#apache;9[0m
+[0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/org.apache.commons/commons-parent/23/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/toddfaucheux/.sbt/preloaded/org.apache.commons/commons-parent/23/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/toddfaucheux/.sbt/preloaded/org/apache/commons/commons-parent/23/commons-parent-23.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/commons/commons-parent/23/commons-parent-23.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/apache/commons/commons-parent/23/commons-parent-23.jar[0m
 [0m[[0mdebug[0m] [0m	found commons-configuration#commons-configuration;1.8 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies it.unimi.dsi#dsiutils;2.0.15->commons-configuration#commons-configuration;1.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies commons-configuration#commons-configuration;1.8->commons-lang#commons-lang;2.6 [compile->master(*)][0m
@@ -1213,46 +1315,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies commons-configuration#commons-configuration;1.8->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/commons-logging/commons-logging/1.1.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for commons-logging#commons-logging;1.1.1[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/toddfaucheux/.sbt/preloaded/commons-logging/commons-logging/1.1.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for commons-logging#commons-logging;1.1.1[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/toddfaucheux/.sbt/preloaded/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for commons-logging#commons-logging;1.1.1[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for commons-logging#commons-logging;1.1.1[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom (1.1.1)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-logging#commons-logging;1.1.1!commons-logging.pom(pom.original) (110ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;5 {}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/org.apache.commons/commons-parent/5/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.commons#commons-parent;5[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/toddfaucheux/.sbt/preloaded/org.apache.commons/commons-parent/5/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.apache.commons#commons-parent;5[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/toddfaucheux/.sbt/preloaded/org/apache/commons/commons-parent/5/commons-parent-5.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.apache.commons#commons-parent;5[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.commons#commons-parent;5[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom (5)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-parent;5!commons-parent.pom(pom.original) (110ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache#apache;4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;4 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;4[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache#apache;4[0m
-[0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/org.apache.commons/commons-parent/5/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/toddfaucheux/.sbt/preloaded/org.apache.commons/commons-parent/5/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/toddfaucheux/.sbt/preloaded/org/apache/commons/commons-parent/5/commons-parent-5.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.jar[0m
-[0m[[0mdebug[0m] [0m	found commons-logging#commons-logging;1.1.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: commons-logging#commons-logging;1.1.1[0m
+[0m[[0mdebug[0m] [0m	found commons-logging#commons-logging;1.1.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies commons-configuration#commons-configuration;1.8->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies commons-configuration#commons-configuration;1.8->commons-logging#commons-logging;1.1.1 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies commons-configuration#commons-configuration;1.8->commons-logging#commons-logging;1.1.1 [compile->compile][0m
@@ -1270,9 +1335,46 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies it.unimi.dsi#dsiutils;2.0.15->commons-collections#commons-collections;3.2.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving commons-collections#commons-collections;3.2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-collections#commons-collections;3.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: commons-collections#commons-collections;3.2.1[0m
-[0m[[0mdebug[0m] [0m	found commons-collections#commons-collections;3.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/commons-collections/commons-collections/3.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for commons-collections#commons-collections;3.2.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/toddfaucheux/.sbt/preloaded/commons-collections/commons-collections/3.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for commons-collections#commons-collections;3.2.1[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/toddfaucheux/.sbt/preloaded/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for commons-collections#commons-collections;3.2.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for commons-collections#commons-collections;3.2.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom (3.2.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-collections#commons-collections;3.2.1!commons-collections.pom(pom.original) (121ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;9 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;9 {}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/org.apache.commons/commons-parent/9/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.commons#commons-parent;9[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/toddfaucheux/.sbt/preloaded/org.apache.commons/commons-parent/9/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.apache.commons#commons-parent;9[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/toddfaucheux/.sbt/preloaded/org/apache/commons/commons-parent/9/commons-parent-9.pom[0m
+[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.apache.commons#commons-parent;9[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.apache.commons#commons-parent;9[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom (9)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-parent;9!commons-parent.pom(pom.original) (118ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache#apache;4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;4 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache#apache;4[0m
+[0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/org.apache.commons/commons-parent/9/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/toddfaucheux/.sbt/preloaded/org.apache.commons/commons-parent/9/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/toddfaucheux/.sbt/preloaded/org/apache/commons/commons-parent/9/commons-parent-9.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.jar[0m
+[0m[[0mdebug[0m] [0m	found commons-collections#commons-collections;3.2.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies it.unimi.dsi#dsiutils;2.0.15->commons-collections#commons-collections;3.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies it.unimi.dsi#dsiutils;2.0.15->org.apache.commons#commons-math3;3.1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies it.unimi.dsi#dsiutils;2.0.15->org.apache.commons#commons-math3;3.2 [compile->master(*)][0m
@@ -3993,7 +4095,7 @@
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-reflect;2.11.7[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile][0m
@@ -4067,10 +4169,28 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sourceforge.f2j#arpack_combined_all;0.1!arpack_combined_all.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sf.opencsv#opencsv;2.3!opencsv.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.rwl#jtransforms;2.4.0!jtransforms.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-math3;3.2!commons-math3.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-math3;3.2!commons-math3.jar (1534ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.spire-math#spire_2.11;0.7.4!spire_2.11.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.4!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar (137ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/toddfaucheux/.ivy2/local/org.scala-lang/scala-reflect/2.11.4/jars/scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/toddfaucheux/.sbt/preloaded/org.scala-lang/scala-reflect/2.11.4/jars/scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/toddfaucheux/.sbt/preloaded/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.4!scala-reflect.jar (3215ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.8.2!junit.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.spire-math#spire-macros_2.11;0.7.4!spire-macros_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.fommil.netlib#all;1.1.2!all.pom[0m
@@ -4103,7 +4223,12 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] it.unimi.dsi#fastutil;6.5.4!fastutil.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] it.unimi.dsi#dsiutils;2.0.15!dsiutils.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.martiansoftware#jsap;2.1!jsap.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.guava#guava;14.0-rc3!guava.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/guava/guava/14.0-rc3/guava-14.0-rc3.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/google/guava/guava/14.0-rc3/guava-14.0-rc3.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava/14.0-rc3/guava-14.0-rc3.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava/14.0-rc3/guava-14.0-rc3.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/google/guava/guava/14.0-rc3/guava-14.0-rc3.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.google.guava#guava;14.0-rc3!guava.jar(bundle) (1604ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-classic;1.0.9!logback-classic.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-configuration#commons-configuration;1.8!commons-configuration.jar[0m
@@ -4118,19 +4243,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5982ms :: artifacts dl 24ms[0m
-[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT compile produced in /Users/toddfaucheux/Valassis/scala/Composite-Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT runtime produced in /Users/toddfaucheux/Valassis/scala/Composite-Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT test produced in /Users/toddfaucheux/Valassis/scala/Composite-Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT provided produced in /Users/toddfaucheux/Valassis/scala/Composite-Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT optional produced in /Users/toddfaucheux/Valassis/scala/Composite-Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT compile-internal produced in /Users/toddfaucheux/Valassis/scala/Composite-Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT runtime-internal produced in /Users/toddfaucheux/Valassis/scala/Composite-Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT test-internal produced in /Users/toddfaucheux/Valassis/scala/Composite-Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT plugin produced in /Users/toddfaucheux/Valassis/scala/Composite-Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT sources produced in /Users/toddfaucheux/Valassis/scala/Composite-Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT docs produced in /Users/toddfaucheux/Valassis/scala/Composite-Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT pom produced in /Users/toddfaucheux/Valassis/scala/Composite-Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT scala-tool produced in /Users/toddfaucheux/Valassis/scala/Composite-Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (5982ms resolve - 24ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 9417ms :: artifacts dl 6519ms[0m
+[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT compile produced in /Users/toddfaucheux/scala/Composite_Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT runtime produced in /Users/toddfaucheux/scala/Composite_Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT test produced in /Users/toddfaucheux/scala/Composite_Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT provided produced in /Users/toddfaucheux/scala/Composite_Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT optional produced in /Users/toddfaucheux/scala/Composite_Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT compile-internal produced in /Users/toddfaucheux/scala/Composite_Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT runtime-internal produced in /Users/toddfaucheux/scala/Composite_Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT test-internal produced in /Users/toddfaucheux/scala/Composite_Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT plugin produced in /Users/toddfaucheux/scala/Composite_Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT sources produced in /Users/toddfaucheux/scala/Composite_Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT docs produced in /Users/toddfaucheux/scala/Composite_Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT pom produced in /Users/toddfaucheux/scala/Composite_Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.valassis.impower#composite-variables_2.11;1.0.0-SNAPSHOT scala-tool produced in /Users/toddfaucheux/scala/Composite_Variables/target/resolution-cache/reports/com.valassis.impower-composite-variables_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (9417ms resolve - 6519ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

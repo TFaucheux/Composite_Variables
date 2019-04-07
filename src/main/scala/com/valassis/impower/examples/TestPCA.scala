@@ -8,7 +8,8 @@ import breeze.math.Complex
 
 import scala.io.Source
 import scala.collection.immutable.Map
-// import breeze.util.ArrayUtil
+
+import com.valassis.impower.utils.PrettyPrint
 
 object TestPca extends App {
 
@@ -42,7 +43,7 @@ val p = 4
   //the inputs are all but the last column.  Outputs are last column
   // val X = dm(::, 1 to 12)
   val A = dm(::, 0 to 10)
-println("A: (a DenseMatrix of mtcars Data)\n" + A)
+println("A: (a DenseMatrix of 'mtcars' Data)\n" + A(0 to 4,::))
 
 //Create a variance-covariance matrix describing the multivariate covariance structure:
 // val A: DenseMatrix[Double] = lowerTriangular(DenseMatrix((1.1,2.2,0.4), (3.9,4.333,0.3242),(-0.43443,9.4242,-21324.3)))
@@ -65,15 +66,21 @@ println("A: (a DenseMatrix of mtcars Data)\n" + A)
 // val D = cov(A);
 val D = corrcoeff(A)
 // println("! The covariance matrix\n" + D)
-println("The correlation matrix\n" + D.toString(5,Int.MaxValue))
+// println("The correlation matrix\n" + D(0 to 4,0 to 6).toString(5,Int.MaxValue))
+//println("The correlation matrix\n" + D.toArray.map(i => println(f"$i%06.4f")))
+println("\nThe correlation matrix: (a subset of the 11x11 matrix)\n" + D(0 to 4,0 to 3))
+println("\n")
 
 println("Based on the correlation matrix we are already able to run a principal component analysis based on Singular Value Decomposition:")
+println("val svd.SVD(u,s,v) = svd(D)")
 //https://github.com/scalanlp/breeze/blob/master/math/src/main/scala/breeze/linalg/functions/svd.scala
 val svd.SVD(u,s,v) = svd(D)
-println("The singular value decomposition of matrix \"random\":")
+
+/*
+println("The singular value decomposition of matrix \"D\":\n")
 println("The left singular vectors:")
 println(u)
-println("These are the eigenvectors in Rn!")
+println("These are the eigenvectors in Rn!\n")
 
 
 println("Let's have a look at the dimensionality of this matrix:")
@@ -84,9 +91,9 @@ println("get the first row of matrix u:")
 val u_1 = u.t(::,1)
 println("Number of rows: "+u_1.length)
 println("Conclusion: The eigenvectors in Rn should have dimensionality N!")
-println("This is not the case because we base our analysis directly on the covariance matrix instead of working with the original data matrix.")
+// println("This is not the case because we base our analysis directly on the covariance matrix instead of working with the original data matrix.")
 
-println("The right singular vectors:")
+println("\nThe right singular vectors:")
 println(v)
 println("These are the eigenvectors in Rp!")
 println("get the dominant eigenvector")
@@ -95,10 +102,11 @@ println("Number of columns: "+v1.length)
 val v_1 = v.t(::,1)
 println("Number of rows: "+v_1.length)
 println("")
+*/
 
-println("The singular values:")
+println("\nThe singular values:")
 println(s)
-println("The singular values are the square root of the eigenvalues.")
+println("\nThe singular values are the square root of the eigenvalues.")
 println("The eigenvalues:")
 s.map(v=>v*v).map(v=>println(v))
 println("")
